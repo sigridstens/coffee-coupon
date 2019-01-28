@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    color: white;
+}
+
+.coupon {
+    max-width: 40em;
+    min-width: 40em;
+    min-height: 24.25em;
+    margin: 5em auto;
+    background-image: url("images/coffee.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.coupon-header {
+    background-color: #c93042;
+    text-align: center;
+    padding: .9em;
+    height: 7.95em;
+}
+
+.coupon-header h2 {
+    font-size: 3.35em;
+}
+
+.coupon-header h3 {
+    font-size: 2.15em;
+}
+
+.coupon-instructions {
+    background-color: #f6485f;
+    border-radius: .75em .75em 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 1.87em;
+    width: 15.45em;
+    height: 14.75em;
+    padding: 1.5em 1em;
+    font-family: sans-serif;
+}
+
+.coupon-instructions h4 {
+     font-size: 1.25em;
+     padding: .25em 0;
+ }
+
+.coupon-instructions p {
+    padding: .25em 0;
+    font-size: .85em;
+    line-height: 1.25em;
+
+}
+
+.button {
+    background-color: #ffc5c1;
+    border-radius: .5em;
+    margin: .5em auto;
+    padding: .2em 0 0 0;
+    width: 85%;
+    text-align: center;
+    font-family: serif;
+    position: relative;
+}
+
+.button p {
+    width: 60%;
+    margin: auto;
+    line-height: 1.15em;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.button p:after {
+    content: "";
+    border: .8rem solid transparent;
+    border-left-color: #f6485f;
+    position: absolute;
+    right: .15em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
